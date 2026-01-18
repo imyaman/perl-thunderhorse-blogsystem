@@ -1,0 +1,10 @@
+# Sample configuration for CBlog
+cassandra:
+  contact_points:
+    - 'cassandra1.example.com'
+    - 'cassandra2.example.com'
+    - 'cassandra3.example.com'
+  keyspace: 'thunderhorse_blog'
+
+# Other config options
+# secret_key: 'replace-with-random-secret'
